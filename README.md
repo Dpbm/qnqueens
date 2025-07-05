@@ -14,7 +14,7 @@ To ease the process of setting up this code, you can use it at:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Dpbm/qnqueens/HEAD)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Dpbm/qnqueens/])
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Dpbm/qnqueens/)
 
 But you can also run it on your local machine. To do that, first install [uv](https://github.com/astral-sh/uv) and then run:
 
