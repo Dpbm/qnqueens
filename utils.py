@@ -3,30 +3,18 @@ from typing import List, Dict, Tuple
 Cell = Tuple[int, int]
 Mapping = Dict[Cell, int]
 
-def get_attacks_for_each_cell(cell:Cell, n:int) -> List[Cell]:
+def get_diagonal_attacks(cell:cell, n:int) -> List[Cell]:
     """
     params:
         cell : Cell - the especific board position (i,j)
         n : int - the board side
 
-    Check the attacks for each queen position.
+    Check the attacks for each queen position in the diagonal.
     """
 
     current_row, current_col = cell
 
     attacks = []
-
-
-    for k in range(n):
-        current_mapped_col = (k, current_col)
-        current_mapped_row = (current_row, k)
-
-        if current_mapped_row != cell:
-            attacks.append(current_mapped_row)
-        
-        if current_mapped_col != cell:
-            attacks.append(current_mapped_col)
-
 
     # top left
     current_i = current_row
@@ -61,6 +49,39 @@ def get_attacks_for_each_cell(cell:Cell, n:int) -> List[Cell]:
         attacks.append((current_i, current_j))
 
     return attacks
+
+
+def get_attacks_for_each_cell(cell:Cell, n:int) -> List[Cell]:
+    """
+    params:
+        cell : Cell - the especific board position (i,j)
+        n : int - the board side
+
+    Check the attacks for each queen position.
+    """
+
+    current_row, current_col = cell
+
+    attacks = []
+
+
+    for k in range(n):
+        current_mapped_col = (k, current_col)
+        current_mapped_row = (current_row, k)
+
+        if current_mapped_row != cell:
+            attacks.append(current_mapped_row)
+        
+        if current_mapped_col != cell:
+            attacks.append(current_mapped_col)
+
+    attacks = [*attacks, *get_diagonal_attacks(cell, n)]
+
+    
+
+    return attacks
+
+
 
 def get_pos_mapping(n:int) -> Mapping:
     """
