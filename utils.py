@@ -3,7 +3,7 @@ from typing import List, Dict, Tuple
 Cell = Tuple[int, int]
 Mapping = Dict[Cell, int]
 
-def get_diagonal_attacks(cell:cell, n:int) -> List[Cell]:
+def get_diagonal_attacks(cell:Cell, n:int) -> List[Cell]:
     """
     params:
         cell : Cell - the especific board position (i,j)
