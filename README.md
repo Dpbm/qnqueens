@@ -90,7 +90,7 @@ When we reach the $1$ size, we can do create the states ourselves using $MCX$ ga
 
 #### Complexity
 
-Even thought the amount of qubits grows linearly as the amount of cells grows $O(N)$, it still very costly to run, once the $4x4$ board raises a circuit with $32$ qubits.
+Even thought the amount of qubits grows linearly as the amount of cells grows $O(N)$, it still very costly to run, since the smallest board ($4x4$) raises a circuit $32$ qubits long.
 
 ![state circuit for side=3](./n=3-board-state.png)
 ![check circuit for side=3](./n=3-board-check.png)
