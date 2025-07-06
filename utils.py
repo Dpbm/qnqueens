@@ -88,8 +88,8 @@ def get_pos_mapping(n:int) -> Mapping:
     params:
         n: int - the side of the board
 
-    Get the qubit/variable relative to that
-    especific cell position.
+    Get the variable relative to that
+    especific cell position (for qubo).
     """
 
     mapping = {}
@@ -99,5 +99,27 @@ def get_pos_mapping(n:int) -> Mapping:
         for j in range(n):
             mapping[(i,j)] = k
             k += 1
+
+    return mapping
+
+def get_pos_mapping_qubit(n:int) -> Mapping:
+    """
+    params:
+        n: int - the side of the board
+
+    Get the qubit relative to that
+    especific cell position (for circuits).
+    """
+
+    mapping = {}
+    k = n
+
+    for i in range(n):
+        for j in range(n):
+            k -= 1
+            mapping[(i,j)] = k
+
+        k = (i+2)*n
+        
 
     return mapping

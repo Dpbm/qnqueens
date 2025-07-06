@@ -94,3 +94,8 @@ Even thought the amount of qubits grows linearly as the amount of cells grows $O
 
 ![state circuit for side=3](./n=3-board-state.png)
 ![check circuit for side=3](./n=3-board-check.png)
+
+Due to that, it wasn't possible to test on my humble intel i5. So for Testing the $4x4$ board, I used the `ibm_torino` backend. However, this amount of qubits was enough to raise a tone of errors and by the end it wasn't possible to reliably get the final answer.
+
+![side=4 board state reg](./n=4-board-state-reg-ibm_torino.png)
+![side=4 board check reg](./n=4-board-check-reg-ibm_torino.png)
