@@ -92,8 +92,8 @@ When we reach the $1$ size, we can do create the states ourselves using $MCX$ ga
 
 Even thought the amount of qubits grows linearly as the amount of cells grows $O(N)$, it still very costly to run, since the smallest board ($4x4$) raises a circuit $32$ qubits long.
 
-![state circuit for side=3](./n=3-board-state.png)
-![check circuit for side=3](./n=3-board-check.png)
+![state circuit for side=4](./n=4-board-state.png)
+![check circuit for side=4](./n=4-board-check.png)
 
 Due to that, it wasn't possible to test on my humble intel i5. So for Testing the $4x4$ board, I used the `ibm_torino` backend. However, this amount of qubits was enough to raise a tone of errors and by the end it wasn't possible to reliably get the final answer.
 
