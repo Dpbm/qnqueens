@@ -70,10 +70,14 @@ Being $|ij|$ and $|a|$ the amount of positions and attacks respectively.
 
 After that, we can Embed this as a Hamiltonian inside a QAOA Ansatz, and them minimize its cost using a classical optimizer (like COBYLA).
 
-![cost history](./cost-history-qaoa.png)
-![resulting board](./solution-board-qaoa-0111011000000011.png)
+![cost history](./cost-history-qaoa-old.png)
+![resulting board](./solution-board-qaoa-0111011000000011-no-retry.png)
 
-Even thought it didn't find the correct solution, it's very dependent on its initial parameters, so its performance is affected by that.
+Once it couldn't find the solution, I tried a different approach, given the algorithm $10$ tries to explore more parameters.
+
+![cost history](./cost-history-qaoa.png)
+
+However, it was still stuck in local optima. If you want to help me improve that, feel free to open an issue/PR.
 
 ### Circuit based
 
