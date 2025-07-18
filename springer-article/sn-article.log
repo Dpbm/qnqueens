@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.17)  17 JUL 2025 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.17)  18 JUL 2025 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,17 +712,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `ali2024quboformulationgeneralizedlinkedin' on
+ page 2 undefined on input line 157.
+
+
+Package natbib Warning: Citation `noauthor_introduction_nodate' on page 2 undef
+ined on input line 157.
+
+
+Package natbib Warning: Citation `Torggler2019quantumnqueens' on page 2 undefin
+ed on input line 157.
+
+
+Package natbib Warning: Citation `jha2018novelquantumnqueenssolver' on page 2 u
+ndefined on input line 157.
+
+
+Package natbib Warning: Citation `s2023quantumapproachsolvenqueens' on page 2 u
+ndefined on input line 157.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 203.
 
+LaTeX Warning: Reference `subsubsec2' on page 3 undefined on input line 191.
+
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 202.
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
-(Font)              size <5> substituted on input line 203.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(Font)              size <5> substituted on input line 202.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -732,27 +752,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.268 
-      ]
+l.243 \end{verbatim}
+                    ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 270.
+               Default added (so using `tbp') on input line 269.
 
-Package epstopdf Info: Source file: <fig.eps>
-(epstopdf)                    date: 2024-12-13 01:01:08
-(epstopdf)                    size: 91593 bytes
-(epstopdf)             Output file: <fig-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-07-17 16:10:29
-(epstopdf)                    size: 3041 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig-eps-converted-to.pdf f
-ig.eps>
-(epstopdf)             \includegraphics on input line 310.
-Package epstopdf Info: Output file is already uptodate.
-<fig-eps-converted-to.pdf, id=123, 505.89pt x 84.315pt>
-File: fig-eps-converted-to.pdf Graphic file (type pdf)
-<use fig-eps-converted-to.pdf>
-Package pdftex.def Info: fig-eps-converted-to.pdf  used on input line 310.
-(pdftex.def)             Requested size: 334.79773pt x 55.79987pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -761,16 +766,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.316 F
-       or sample purpose, we have included the width of images in the option...
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.316 F
-       or sample purpose, we have included the width of images in the option...
- <./fig-eps-converted-to.pdf>]
+l.300 \end{verbatim}
+                    ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5
@@ -778,84 +775,105 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.316 F
-       or sample purpose, we have included the width of images in the option...
-]
+l.300 \end{verbatim}
+                    ]
+Package epstopdf Info: Source file: <fig.eps>
+(epstopdf)                    date: 2024-12-13 01:01:08
+(epstopdf)                    size: 91593 bytes
+(epstopdf)             Output file: <fig-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-07-17 16:10:29
+(epstopdf)                    size: 3041 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig-eps-converted-to.pdf f
+ig.eps>
+(epstopdf)             \includegraphics on input line 309.
+Package epstopdf Info: Output file is already uptodate.
+<fig-eps-converted-to.pdf, id=126, 505.89pt x 84.315pt>
+File: fig-eps-converted-to.pdf Graphic file (type pdf)
+<use fig-eps-converted-to.pdf>
+Package pdftex.def Info: fig-eps-converted-to.pdf  used on input line 309.
+(pdftex.def)             Requested size: 334.79773pt x 55.79987pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.355   do 
+           if $n=0$ then exit fi; <./fig-eps-converted-to.pdf>]
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-360.
-LaTeX Font Info:    No file OMScmss.fd. on input line 360.
+359.
+LaTeX Font Info:    No file OMScmss.fd. on input line 359.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 360.
+(Font)              for symbol `textbraceleft' on input line 359.
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 367.
+put line 366.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-02.
+01.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 402.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 401.
 
-Overfull \hbox (7.55843pt too wide) in paragraph at lines 396--408
+Overfull \hbox (7.55843pt too wide) in paragraph at lines 395--407
 []$[]$ 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [7]
 
-Package natbib Warning: Citation `bib1' on page 8 undefined on input line 427.
+Package natbib Warning: Citation `bib1' on page 8 undefined on input line 426.
 
 
-Package natbib Warning: Citation `bib2' on page 8 undefined on input line 427.
+Package natbib Warning: Citation `bib2' on page 8 undefined on input line 426.
 
 
-Package natbib Warning: Citation `bib3' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib3' on page 8 undefined on input line 428.
 
 
-Package natbib Warning: Citation `bib4' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib4' on page 8 undefined on input line 428.
 
 
-Package natbib Warning: Citation `bib5' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib5' on page 8 undefined on input line 428.
 
 
-Package natbib Warning: Citation `bib6' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib6' on page 8 undefined on input line 428.
 
 
-Package natbib Warning: Citation `bib7' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib7' on page 8 undefined on input line 428.
 
 
-Package natbib Warning: Citation `bib8' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib8' on page 8 undefined on input line 428.
 
 
-Package natbib Warning: Citation `bib9' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib9' on page 8 undefined on input line 428.
 
 
-Package natbib Warning: Citation `bib10' on page 8 undefined on input line 429.
-
-
-
-Package natbib Warning: Citation `bib11' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib10' on page 8 undefined on input line 428.
 
 
 
-Package natbib Warning: Citation `bib12' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib11' on page 8 undefined on input line 428.
 
 
 
-Package natbib Warning: Citation `bib13' on page 8 undefined on input line 429.
+Package natbib Warning: Citation `bib12' on page 8 undefined on input line 428.
+
+
+
+Package natbib Warning: Citation `bib13' on page 8 undefined on input line 428.
 
 
 
@@ -865,56 +883,60 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-Underfull \hbox (badness 1859) in paragraph at lines 524--525
+Underfull \hbox (badness 1859) in paragraph at lines 523--524
 \OT1/cmr/m/n/10 of a clin-i-cal trial then addi-tional infor-ma-tion will be re
 quired. Please visit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 \OT1/cmr/m/n/10 ([][]$https : / / www . nature . com / nature-[]research / edit
 orial-[]policies$[][]) for Nature Port-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 \OT1/cmr/m/n/10 fo-lio jour-nals, ([][]$https : / / www . springer . com / gp /
  authors-[]editors / journal-[]author /
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 524--525
+Underfull \hbox (badness 4634) in paragraph at lines 523--524
 \OT1/cmr/m/n/10 journal-[]author-[]helpdesk / publishing-[]ethics / 14214$[][])
  for Springer Nature jour-nals,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 \OT1/cmr/m/n/10 or ([][]$https : / / www . biomedcentral . com / getpublished /
  editorial-[]policies # ethics + and +
  []
-
-
-Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 540.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
 
-Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 548.
+Package hyperref Warning: Difference (4) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 539.
 
-(./sn-article.bbl)
+
+Package hyperref Warning: Difference (3) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 547.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./sn-article
+.bbl)
 
 Package natbib Warning: There were undefined citations.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./sn-article
-.aux)
+ [12]
+(./sn-article.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -927,17 +949,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: 7869B4D47B59CEB8AE30C555CA9F4B42;3122.
+(rerunfilecheck)             Checksum: C5B57E50A55EEFE41E9065E91D6189D3;2445.
  ) 
 Here is how much of TeX's memory you used:
- 14933 strings out of 474222
- 225776 string characters out of 5748733
- 1950975 words of memory out of 5000000
- 36868 multiletter control sequences out of 15000+600000
+ 14929 strings out of 474222
+ 225704 string characters out of 5748733
+ 1948975 words of memory out of 5000000
+ 36865 multiletter control sequences out of 15000+600000
  586266 words of font info for 146 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,17n,93p,737b,1626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,17n,93p,945b,1927s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
@@ -968,10 +993,10 @@ xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfrm1000.pfb>
-Output written on sn-article.pdf (11 pages, 380053 bytes).
+Output written on sn-article.pdf (12 pages, 381046 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

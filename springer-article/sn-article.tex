@@ -148,17 +148,16 @@ The structure of this paper is the following. In section \ref{sec2} we present t
 \ref{sec4} will show the complete setup along with its analysis, and finally \ref{sec5} will discuss the setup.
 
 
-\section{Results}\label{sec2}
+\section{The N-Queens Problem}\label{sec2}
 
-Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text.
+The problem is described as, in a hypothetical chessboard of which, instead of the regular dimensions $8$x$8$ and pieces displacement, you have a $n$x$n$ board with $n$ queens placed thought the board cells. The goal of this problem, is to find all the combinations that satisfy the constraint of no two queens can attack each other.
+
+A naive approach to solve it, is randomly test combinations of different queens in distinct sets of rows and columns. However, with a simple analysis, it's possible to check that every row must have exactly one queen, and the same for every column. Due to that, the amount of combinations to check falls from $\prod_{i=0}^{n-1}{n^2 - i}$ to $n!$ .
+
+With its complexity being $O(n!)$, this problem grows really fast as the side of the board $n$ grows. Due to that, the effort to convert this problem into quantum started to increase as the quantum computers became more popular, with QUBO \cite{ali2024quboformulationgeneralizedlinkedin}, QAOA \cite{noauthor_introduction_nodate} and even using atoms in a lattice \cite{Torggler2019quantumnqueens} implementations being done. However, as the major platform for quantum computing as the current date (2025), the most part of the implementations are done using specific quantum circuits embedding the problem behavior using the available quantum gates and measurements together with post-processing classical routines to extract the solutions from the quantum system, some examples of this approach are: \cite{jha2018novelquantumnqueenssolver}\cite{s2023quantumapproachsolvenqueens} and this very paper.
 
 \section{This is an example for first level head---section head}\label{sec3}
 
-\subsection{This is an example for second level head---subsection head}\label{subsec2}
-
-\subsubsection{This is an example for third level head---subsubsection head}\label{subsubsec2}
-
-Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. Sample body text. 
 
 \section{Equations}\label{sec4}
 
